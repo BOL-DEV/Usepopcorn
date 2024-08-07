@@ -9,7 +9,7 @@ const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
 function App() {
-  const [query, setQuery] = useState("back");
+  const [query, setQuery] = useState("blush");
   const [selectedId, setSelectedId] = useState(null);
 
   const { movies, isLoading, error } = useMovies(query);

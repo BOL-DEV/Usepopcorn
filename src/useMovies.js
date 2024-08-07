@@ -13,7 +13,7 @@ const useMovies = (query) => {
 
       async function getMovies() {
         try {
-          const myUrl = `http://www.omdbapi.com/?i=tt3896198&apikey=${key}&s=${query}`;
+          const myUrl = `https://www.omdbapi.com/?i=tt3896198&apikey=${key}&s=${query}`;
 
           setIsLoading(true);
           setError("");
