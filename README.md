@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+🎬 UsePopcorn – Movie Finder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+UsePopcorn is a sleek and responsive movie search app built with React. It allows users to search any movie, view detailed information, and manage a personal “watched” list — all inside a clean and fast UI.
 
-## Available Scripts
+This project focuses on:
 
-In the project directory, you can run:
+API data fetching
 
-### `npm start`
+Component-based architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+State management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Custom hooks
 
-### `npm test`
+Responsive layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clean UI/UX
 
-### `npm run build`
+Reusable components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🚀 Features
+🔍 Search Movies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Instantly search any movie using the OMDB API. Results update in real-time as you type.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🎦 Movie Details
 
-### `npm run eject`
+Clicking a movie shows:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Poster
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Title
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Year
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ratings
 
-## Learn More
+Plot summary
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Runtime and genre
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+⭐ Add to Watched List
 
-### Code Splitting
+Users can add movies to a personal list that displays:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Average rating
 
-### Analyzing the Bundle Size
+User rating
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Runtime summary
 
-### Making a Progressive Web App
+❌ Remove Movies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Easily remove movies from your watched list anytime.
 
-### Advanced Configuration
+📱 Fully Responsive
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Optimized for:
 
-### Deployment
+Mobile screens (390px width and above)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tablets
 
-### `npm run build` fails to minify
+Desktop screens
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🛠️ Tech Stack
+
+React
+
+JavaScript (ES6+)
+
+CSS (custom + responsive breakpoints)
+
+OMDB API
+
+React Hooks (useEffect, useState, useRef)
+
+📦 Installation
+
+Clone the project:
+
+git clone https://github.com/BOL-DEV/Usepopcorn.git
+
+
+Install dependencies:
+
+npm install
+
+
+Start development server:
+
+npm start
+
+📁 Project Structure
+src/
+  components/
+    Navbar.jsx
+    Search.jsx
+    MovieList.jsx
+    MovieDetails.jsx
+    WatchedList.jsx
+  hooks/
+    useMovies.js
+  App.jsx
+  index.js
+  styles.css
+
+🌐 API Used
+
+This app uses the OMDB API:
+https://www.omdbapi.com/
+
+You’ll need an API key — add it like this:
+
+https://www.omdbapi.com/?apikey=YOUR_KEY&s=movie_title
+
+🧩 Improvements Coming Soon
+
+Dark/Light mode toggle
+
+LocalStorage sync for watched movies
+
+Animations & transitions
+
+Pagination for search results
+
+👨‍💻 Author
+
+BOL
+Frontend Developer | JavaScript Lover | React Enthusiast
